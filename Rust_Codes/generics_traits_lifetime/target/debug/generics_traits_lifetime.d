@@ -1,0 +1,1 @@
+/home/tanveerahmed/Desktop/IOT-Development/Rust_Codes/generics_traits_lifetime/target/debug/generics_traits_lifetime: /home/tanveerahmed/Desktop/IOT-Development/Rust_Codes/generics_traits_lifetime/src/main.rs

@@ -1,0 +1,1 @@
+/home/tanveerahmed/Desktop/IOT-Development/Embedded_Rust_Codes/bitwise_operators/target/debug/bitwise_operators: /home/tanveerahmed/Desktop/IOT-Development/Embedded_Rust_Codes/bitwise_operators/src/main.rs

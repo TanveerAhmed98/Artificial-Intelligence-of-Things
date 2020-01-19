@@ -1,0 +1,21 @@
+Step1:
+openocd \
+  -f interface/stlink-v2-1.cfg \
+  -f target/stm32f3x.cfg
+
+Step2:
+cargo build --target thumbv7em-none-eabihf
+
+Step3:
+gdb-multiarch -q target/thumbv7em-none-eabihf/debug/led-roulette
+
+Step4:
+target remote :3333
+
+Step5:
+load
+
+break main
+
+continue next
+

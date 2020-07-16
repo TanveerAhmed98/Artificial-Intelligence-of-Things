@@ -7,7 +7,7 @@ Step2:
 cargo build --target thumbv7em-none-eabihf
 
 Step3:
-gdb-multiarch -q target/thumbv7em-none-eabihf/debug/led-roulette
+gdb-multiarch -q target/thumbv7em-none-eabihf/debug/folder name
 
 Step4:
 target remote :3333

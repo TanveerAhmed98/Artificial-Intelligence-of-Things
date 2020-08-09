@@ -1,0 +1,12 @@
+
+
+** Basic Docker Commands**
+
+** sudo docker build -t first-docker-app .                                           ==> This command will create docker container.
+** sudo docker container run --name=first-docker-cont -d -p 8500:80 first-docker-app ==> This command will run docker container.
+** sudo docker tag oldfilename newfilename                                           ==> This command will create copy of image with new name.
+** sudo docker image push imagename.                                                 ==> This command will push image to the repo.
+** sudo docker login                                                                 ==> By this command we can login.
+** sudo docker logout                                                                ==> By this command we can logout. 
+** sudo docker image pull imagename                                                  ==> This command will pull image from the repo.
+
